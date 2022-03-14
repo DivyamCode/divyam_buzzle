@@ -1,0 +1,55 @@
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #3a3f49;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  margin-right: 500px;
+  font-size: 17px;
+  
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    
+  }
+  .topnav input[type=text] {
+    border: 1px solid rgb(123, 238, 108);
+  }
+}
+.button1{
+  margin-top: 8px;
+  margin-right: 60px;
+  float: right;
+  height: 30px;
+  width: 70px;
+  background-color: #c01ee9da;
+  
+}
+.button2{
+  margin-top: 8px;
+  margin-left: 30px;
+  margin-right: 8px;
+  float: right;
+  height: 30px;
+  width: 70px;
+  background-color: #c01ee9da;
+}

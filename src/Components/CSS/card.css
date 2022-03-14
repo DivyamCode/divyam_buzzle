@@ -1,0 +1,38 @@
+.card{
+    height: 250px;
+    width: 192px;
+    background-color: aqua;
+    z-index: 1;
+    margin-right: 25px;
+    margin-left: 10px;
+    
+    
+}
+.live{
+    height: 18px;
+    width: 35px;
+    color:white;
+    /* margin-top: 30px; */
+    background-color: red;
+    font-size: 15px;
+    z-index: 2;
+    position: absolute;
+}
+.p{
+    color:rgb(187, 26, 26);
+    /* margin-top: 30px; */
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    margin-top: 0px;
+
+}
+.dotdot {
+    height: 17px;
+    width: 17px;
+    background-color: rgb(233, 133, 228);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 160px;
+    z-index: 2;
+}

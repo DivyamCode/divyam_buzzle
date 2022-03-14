@@ -1,0 +1,12 @@
+.eventdiv{
+    height: 280px;
+    background-color: #686868;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+    
+    
+}
+.eventdiv2{
+    display: flex;
+}
